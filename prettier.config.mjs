@@ -1,7 +1,8 @@
-// prettier.config.js
+// prettier.config.mjs
 
-/** @type {import('prettier').Config & import('prettier-plugin-tailwindcss').PluginOptions} */
+/** @type {import('prettier').Config} */
 export default {
-  plugins: ["prettier-plugin-tailwindcss"],
+  plugins: ["@shopify/prettier-plugin-liquid", "prettier-plugin-tailwindcss"],
   tailwindConfig: "./tailwind.config.js",
-}
+};
+

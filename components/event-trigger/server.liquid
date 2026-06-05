@@ -1,7 +1,16 @@
 {% props %}
-  "hello": {{ hello | default: "world" | json }}
+  "href": {{ href | default: '#' | json }},
+  "namespace": {{ namespace | default: 'event-trigger' | json }},
+  "event": {{ event | default: 'click' | json }},
+  "html": {{ html | json }},
+  "aria_label": {{ aria_label | default: 'Click Me' | json }},
+  "type": {{ type | default: 'button' | json }},
+  "class": {{ class | default: '' | json }}{% if details %},
+  "details": {{ details }}{% endif %}
 {% endprops %}
 
-<a href="https://www.google.com">
-  {{ hello }}
+<a href="{{ href }}" class="{{ class }}" aria-label="{{ aria_label }}">
+  <div class="contents" slot="html">
+    {{ html }}
+  </div>
 </a> 
