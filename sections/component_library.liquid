@@ -3,5 +3,6 @@
   {% render 'icons', icon: 'cart', size: '24' %}
 {% endcapture %}
 
-Hello
-{% component 'event-trigger', html: cart_trigger_content %}
+{% assign cart_trigger_href = routes.cart_url %}
+
+{% component 'event-trigger', html: cart_trigger_content, aria_label: 'Cart Toggle', href: cart_trigger_href, event: 'cart-drawer:open' %}
