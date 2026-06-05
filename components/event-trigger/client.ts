@@ -1,5 +1,7 @@
-import { LitElement } from "lit";
+import { LitElement, html } from "lit";
+import type { TemplateResult } from "lit";
 import { customElement } from "lit/decorators.js";
+import { TailwindProvider } from "../../providers/tailwind";
 
 interface EventTriggerProps {
   details?: Record<string, any>;
@@ -14,7 +16,7 @@ interface EventTriggerProps {
 
 @customElement("event-trigger")
 export class EventTrigger extends TailwindProvider<EventTriggerProps> {
-  private _handleClick(event: Event) {
+  private _handleClick(): void {
     const { namespace, event } = this.props;
     const eventName = `${namespace}:${event}`;
     const customEvent = new CustomEvent(eventName, {
@@ -30,7 +32,7 @@ export class EventTrigger extends TailwindProvider<EventTriggerProps> {
       aria-label=${this.props.aria_label}
       @click=${this._handleClick}
     >
-      <slot name="html"></slot>
+      ${unsafeHTML(this.props.html)}
     </button>`;
   }
 }

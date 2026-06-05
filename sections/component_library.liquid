@@ -1,6 +1,7 @@
 {% capture cart_trigger_content %}
   <span class="sr-only">Cart</span>
-  {% render 'icon_cart' %}
+  {% render 'icons', icon: 'cart', size: '24' %}
 {% endcapture %}
 
-{% component 'event_trigger', html: button_conten %}
+Hello
+{% component 'event-trigger', html: cart_trigger_content %}
