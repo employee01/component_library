@@ -1,0 +1,474 @@
+{
+  "general": {
+    "404": "Not found",
+    "article": "Article",
+    "block": "Block",
+    "blog": "Blog",
+    "cart": "Cart",
+    "collection": "Collection",
+    "collections": "Collections",
+    "collection_card": "Collection card",
+    "collections_grid": "Collections grid",
+    "colors": "Colors",
+    "column": "Column",
+    "content": "Content",
+    "custom_section": "Custom section",
+    "fonts": "Fonts",
+    "footer": "Footer",
+    "group": "Group",
+    "header": "Header",
+    "layout": "Layout",
+    "main": "Main",
+    "page": "Page",
+    "password": "Password",
+    "primary": "Primary",
+    "product": "Product",
+    "row": "Row",
+    "search": "Search",
+    "secondary": "Secondary",
+    "section": "Section",
+    "settings": "Settings",
+    "sidebar": "Sidebar",
+    "site_logo": "Site Logo",
+    "text": "Text",
+    "theme": "Theme",
+    "typography": "Typography",
+    "heading": "Heading",
+    "display": "Display",
+    "serif": "Serif",
+    "body": "Body",
+    "sans": "Sans",
+    "title": "Title"
+  },
+
+  "sections": {
+    "hero": {
+      "name": "Section - Hero",
+      "settings": {
+        "logo": { "label": "Site Logo" },
+        "logo_fallback_text": {
+          "label": "Logo Fallback Text",
+          "default": "house-of-wolves.logo"
+        },
+        "hero_text1": {
+          "label": "Hero Text #1",
+          "default": "CUSTOM TATTOOING · GEELONG, VICTORIA"
+        },
+        "hero_text2": {
+          "label": "Hero Text #2",
+          "default": "JAPANESE IREZUMI · NEO TRADITIONAL · BLACK & GREY"
+        },
+        "booking_notice": {
+          "label": "Booking Notice",
+          "default": "By Appointment Only · Currently Booking 6 Months Out"
+        },
+        "background_video": { "label": "Background video" },
+        "background_image": { "label": "Background image (fallback)" },
+        "overlay_opacity": { "label": "Overlay opacity" }
+      },
+      "blocks": {
+        "cta": {
+          "name": "CTA",
+          "settings": {
+            "label": {
+              "label": "Label",
+              "default": "Button label"
+            },
+            "url": {
+              "label": "Link"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Hero Section"
+      }
+    },
+
+    "header": {
+      "name": "Header",
+      "settings": {
+        "cta_url": { "label": "CTA URL" },
+        "color_scheme": { "label": "Color scheme" }
+      }
+    },
+
+    "artist_booking_list": {
+      "name": "Artist Booking List",
+      "settings": {
+        "limit": { "label": "Artist limit" }
+      },
+      "presets": {
+        "name": "Artist Booking List"
+      }
+    },
+
+    "artist_portfolio_hero": {
+      "name": "Artist Portfolio Hero",
+      "presets": {
+        "name": "Artist Portfolio Hero"
+      }
+    },
+
+    "artists_list": {
+      "name": "Artists List",
+      "settings": {
+        "heading": { "label": "Heading", "default": "Our Artists" },
+        "page_intro": { "label": "Intro Line #1" },
+        "page_intro2": { "label": "Intro Line #2" }
+      },
+      "presets": {
+        "name": "Artists List"
+      }
+    },
+
+    "artists_preview": {
+      "name": "Artists Preview",
+      "settings": {
+        "heading": { "label": "Heading", "default": "Artists" },
+        "cta_label": { "label": "CTA label", "default": "View all" },
+        "cta_url": { "label": "CTA URL" },
+        "hero_artist": { "label": "Featured Artist" }
+      },
+      "blocks": {
+        "artist_carousel": {
+          "name": "Artist Carousel Block",
+          "settings": {
+            "limit": { "label": "Artist limit" },
+            "snap": { "label": "Enable snap scrolling" }
+          }
+        }
+      },
+      "presets": {
+        "name": "Artists Preview"
+      }
+    },
+
+    "booking_experience": {
+      "name": "Booking Experience",
+      "settings": {
+        "heading": { "label": "Heading", "default": "BOOK VIA INSTAGRAM" },
+        "subtext": {
+          "label": "Subtext",
+          "default": "Direct Contact · Individual Artist Availability · Fast Response"
+        },
+        "cta_label": { "label": "CTA label", "default": "Book a session" },
+        "cta_url": { "label": "CTA URL" },
+        "store_info": { "label": "Store Info" },
+        "store_name": { "label": "Store Name", "default": "House of Wolves" },
+        "store_street": { "label": "Street Address", "default": "82A Hope St" },
+        "store_suburb": { "label": "Suburb / City", "default": "Geelong West" },
+        "store_state": { "label": "State", "default": "VIC" },
+        "store_postcode": { "label": "Postcode", "default": "3218" },
+        "map_image": { "label": "Map Image" },
+        "map_url": { "label": "Map URL" }
+      },
+      "presets": {
+        "name": "Booking Experience"
+      }
+    },
+
+    "book_header": {
+      "name": "Book Header",
+      "settings": {
+        "heading": { "label": "Heading", "default": "Book Your Piece" },
+        "content": { "label": "Content" },
+        "policy_note": {
+          "label": "Policy note",
+          "default": "Custom work only. No walk-ins."
+        }
+      },
+      "presets": {
+        "name": "Book Header"
+      }
+    },
+
+    "contact_header": {
+      "name": "Contact Header",
+      "settings": {
+        "heading": { "label": "Heading", "default": "The Studio" },
+        "content": { "label": "Content" }
+      },
+      "presets": {
+        "name": "Contact Header"
+      }
+    },
+
+    "get_in_touch": {
+      "name": "Get In Touch",
+      "settings": {
+        "heading": { "label": "Heading", "default": "Get In Touch" },
+        "email": { "label": "Studio email" },
+        "instagram_handle": { "label": "Studio Instagram @handle" },
+        "heading2": { "label": "Heading #2", "default": "Follow the Artists" }
+      },
+      "presets": {
+        "name": "Get In Touch"
+      }
+    },
+
+    "location_hours": {
+      "name": "Location & Hours",
+      "settings": {
+        "hours": { "label": "Opening hours" },
+        "suburb": {
+          "label": "Display Suburb",
+          "default": "Central Geelong"
+        },
+        "street": {
+          "label": "Display Street Address",
+          "default": "82A Hope St"
+        },
+        "map_image": { "label": "Map Image" },
+        "google_maps_url": { "label": "Google Maps URL" }
+      },
+      "presets": {
+        "name": "Location & Hours"
+      }
+    },
+
+    "process": {
+      "name": "Process",
+      "settings": {
+        "heading": { "label": "Heading", "default": "The Process" }
+      },
+      "blocks": {
+        "step": {
+          "name": "Step",
+          "settings": {
+            "title": { "label": "Step title" },
+            "description": { "label": "Description" }
+          }
+        },
+        "info": {
+          "name": "Information",
+          "settings": {
+            "months": {
+              "label": "Months Wait",
+              "default": "3-6"
+            },
+            "deposit": { "label": "Expected Deposit" }
+          }
+        }
+      },
+      "presets": {
+        "name": "Process"
+      }
+    },
+
+    "how_it_works": {
+      "name": "How It Works",
+      "settings": {
+        "heading": { "label": "Heading", "default": "How It Works" }
+      },
+      "blocks": {
+        "step": {
+          "name": "Step",
+          "settings": {
+            "title": { "label": "Step title" },
+            "description": { "label": "Description" }
+          }
+        },
+        "info": {
+          "name": "Information",
+          "settings": {
+            "months": {
+              "label": "Months Wait",
+              "default": "3-6"
+            },
+            "deposit": { "label": "Expected Deposit" }
+          }
+        }
+      },
+      "presets": {
+        "name": "How It Works"
+      }
+    },
+
+    "reviews_carousel": {
+      "name": "Reviews Carousel",
+      "settings": {
+        "heading": { "label": "Heading", "default": "Collectors say" },
+        "autoplay": { "label": "Autoplay" },
+        "speed": { "label": "Autoplay speed" }
+      },
+      "blocks": {
+        "review": {
+          "name": "Review",
+          "settings": {
+            "reviewer": { "label": "Reviewer name" },
+            "text": { "label": "Review text" },
+            "rating": { "label": "Rating" }
+          }
+        }
+      },
+      "presets": {
+        "name": "Reviews Carousel"
+      }
+    },
+
+    "selected_works": {
+      "name": "Selected Works",
+      "settings": {
+        "heading": { "label": "Heading", "default": "Selected Works" }
+      },
+      "presets": {
+        "name": "Selected Works"
+      }
+    },
+
+    "studio_intro": {
+      "name": "Studio Intro",
+      "settings": {
+        "heading": { "label": "Heading", "default": "Geelong Studio" },
+        "content": { "label": "Content" },
+        "image": { "label": "Supporting image or brand mark" },
+        "cta_label": { "label": "CTA label" },
+        "cta_url": { "label": "CTA URL" },
+        "layout": {
+          "label": "Layout",
+          "options": {
+            "text_left": "Text left",
+            "text_right": "Text right"
+          }
+        }
+      },
+      "presets": {
+        "name": "Studio Intro"
+      }
+    },
+
+    "footer": {
+      "name": "Footer",
+      "blocks": {
+        "instagram": {
+          "name": "Instagram Artist",
+          "settings": {
+            "title": {
+              "label": "Title",
+              "default": "Follow Us"
+            }
+          }
+        },
+        "contact": {
+          "name": "Contact",
+          "settings": {
+            "title": {
+              "label": "Title",
+              "default": "Contact"
+            },
+            "contact_email": {
+              "label": "Contact Email",
+              "default": "hello@houseofwolves.com.au"
+            }
+          }
+        },
+        "nav_links": {
+          "name": "Navigation Links",
+          "settings": {
+            "title": {
+              "label": "Title",
+              "default": "Navigation"
+            },
+            "menu": {
+              "label": "Menu"
+            }
+          }
+        },
+        "book_now": {
+          "name": "Book Now",
+          "settings": {
+            "title": {
+              "label": "Title",
+              "default": "Take A Seat"
+            },
+            "booking_url": {
+              "label": "Booking URL"
+            }
+          }
+        },
+        "social_link": {
+          "name": "Social Link",
+          "settings": {
+            "title": {
+              "label": "Title"              
+            }
+          }
+        }
+      },
+      "presets": {
+        "default": {
+          "name": "Default Footer",
+          "category": "Footer"
+        }
+      }
+    }
+  },
+
+  "labels": {
+    "alignment": "Alignment",
+    "background": "Background",
+    "background_gradient": "Background gradient",
+    "foreground": "Foreground",
+    "text": "Text",
+    "button": "Button background",
+    "button_label": "Button text",
+    "secondary_button_label": "Secondary button text",
+    "shadow": "Shadow",
+    "grid_gap": "Grid spacing",
+    "grid_item_width": "Grid item width",
+    "input_corner_radius": "Input corner radius",
+    "layout_direction": "Layout direction",
+    "menu": "Menu",
+    "padding": "Padding",
+    "page_margin": "Page margin",
+    "page_width": "Page width",
+    "show_payment_icons": "Show payment icons",
+    "text_style": "Text style"
+  },
+
+  "options": {
+    "alignment": {
+      "left": "Left",
+      "center": "Center",
+      "right": "Right"
+    },
+    "direction": {
+      "horizontal": "Horizontal",
+      "vertical": "Vertical"
+    },
+    "page_width": {
+      "narrow": "Narrow",
+      "wide": "Wide"
+    },
+    "size": {
+      "large": "Large",
+      "small": "Small"
+    },
+    "text_style": {
+      "title": "Title",
+      "subtitle": "Subtitle",
+      "normal": "Normal text"
+    }
+  },
+
+  "settings_schema": {
+    "colors": {
+      "name": "Colors",
+      "settings": {
+        "background": { "label": "Background" },
+        "background_gradient": {
+          "label": "Background gradient",
+          "info": "Optional gradient used as the section background"
+        },
+        "text": { "label": "Text" },
+        "button_background": { "label": "Primary button" },
+        "button_label": { "label": "Primary button text" },
+        "secondary_button_label": {
+          "label": "Secondary button text and links"
+        },
+        "shadow": { "label": "Shadow" }
+      }
+    }
+  }
+}

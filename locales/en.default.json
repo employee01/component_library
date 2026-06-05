@@ -1,0 +1,114 @@
+{
+  "404": {
+    "title": "404",
+    "not_found": "Page not found.",
+    "back_to_shopping": "Back to shopping"
+  },
+  "blog": {
+    "article_comments": "Comments",
+    "article_metadata_html": "{{ date }} by {{ author }}",
+    "comment_form_body": "Comment",
+    "comment_form_email": "Email",
+    "comment_form_name": "Name",
+    "comment_form_submit": "Post",
+    "comment_form_title": "Add a comment"
+  },
+  "cart": {
+    "checkout": "Checkout",
+    "title": "Cart",
+    "update": "Update",
+    "remove": "Remove"
+  },
+  "clock": {
+    "location_geelong": "Geelong",
+    "status_open": "OPEN",
+    "status_closed": "CLOSED"
+  },
+  "customers": {
+    "login": {
+      "email": "Email",
+      "password": "Password",
+      "submit": "Sign in",
+      "title": "Login"
+    }
+  },
+  "collections": {
+    "title": "Collections"
+  },
+  "gift_card": {
+    "add_to_apple_wallet": "Add to Apple Wallet",
+    "card": "Gift card",
+    "expired": "This gift card has expired",
+    "expires_on": "Expires on {{ expires_on }}",
+    "use_at_checkout": "Use this gift card at checkout"
+  },
+  "password": {
+    "title": "This shop is private",
+    "password": "Password",
+    "enter": "Enter"
+  },
+  "search": {
+    "title": "Search",
+    "placeholder": "Search articles, pages, or products",
+    "submit": "Search",
+    "no_results_html": "No results found for {{ terms }}",
+    "results_for_html": "{{ count }} results found for {{ terms }}"
+  },
+  "sections": {
+    "artists": {
+      "featured": "Featured",
+      "waitlist_cta": "DM to join waitlist",
+      "view_profile": "View Profile",
+      "view_all": "View All Artists",
+      "book_instagram": "Book via Instagram",
+      "book_instagram_short": "Instagram",
+      "no_artists": "No Artists",
+      "email": "Email",
+      "email_long": "Email Inquiry"
+    },
+    "reviews": {
+      "google_review": "Star review from Google",
+      "no_reviews": "No reviews available."
+    },
+    "bookexp": {
+      "show_on_map": "Show on Google Map"
+    },
+    "book_header": {
+      "content": "Choose your artist. All bookings via Instagram DM or email."
+    },
+    "process": {
+      "months": "Months Wait",
+      "deposit": "Deposit",
+      "custom": "Custom",
+      "percent": "100%",
+      "currency": "$"
+    },
+    "how_it_works": {
+      "heading": "How it Works"
+    },
+    "location_hours": {
+      "location": "Location",
+      "hours": "Hours",
+      "appointment": "By appointment only"
+    },
+    "get_in_touch": {
+      "inquiries": "General Inquiries",
+      "studio": "Studio Instagram"
+    }, 
+    "footer": {
+      "copyright": "© 2026 HOUSE OF WOLVES",
+      "location": "GEELONG, VICTORIA",
+      "credit": "WEBSITE BY INDFFRNT.",
+      "to_top": "TO TOP"
+    }
+  },
+  "socials": {
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "tiktok": "Tiktok"
+  },
+  "cta": {
+    "choose_artist": "Choose an artist"
+  }
+}

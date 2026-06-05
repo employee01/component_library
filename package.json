@@ -1,0 +1,23 @@
+{
+  "name": "indffrnt-app",
+  "version": "0.1.0",
+  "type": "module",
+  "dependencies": {
+    "@shopify/prettier-plugin-liquid": "^1.9.4",
+    "@splidejs/splide": "^4.1.4",
+    "embla-carousel": "^8.6.0",
+    "embla-carousel-autoplay": "^8.6.0",
+    "lit": "3.3.1",
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "slugify": "^1.6.9"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.19",
+    "@tailwindcss/vite": "^4.2.1",
+    "eslint": "^9.35.0",
+    "prettier": "^3.6.2",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.9.2",
+    "vite": "^7.3.1"
+  }
+}

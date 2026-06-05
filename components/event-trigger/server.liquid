@@ -1,0 +1,7 @@
+{% props %}
+  "hello": {{ hello | default: "world" | json }}
+{% endprops %}
+
+<a href="https://www.google.com">
+  {{ hello }}
+</a> 
