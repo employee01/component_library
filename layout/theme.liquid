@@ -1,22 +1,12 @@
 <!doctype html>
 <html lang="{{ request.locale.iso_code }}" lang="{{ request.locale.iso_code }}">
   <head>
-    {% render 'global-header' %}
-    {% render 'color-schemes' %}
     {{ content_for_header }}
   </head>
 
-  <link rel="stylesheet" href="https://use.typekit.net/drz7xmf.css">
-
   <body class="flex min-h-screen flex-col bg-black">
-    {% sections 'header-group' %}
-
     <main id="main" role="main" class="flex-1">
       {{ content_for_layout }}
     </main>
-    
-    <div class="mt-auto">
-      {% sections 'footer' %}
-    </div>
   </body>
 </html>
