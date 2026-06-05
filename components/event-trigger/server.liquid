@@ -1,12 +1,20 @@
-{% props %} "href": {{ href | default: '#' | json }}, "namespace": {{ namespace | default: 'event-trigger' | json }},
-"event": {{ event | default: 'click' | json }}, "html": {{ html | json }}, "aria_label":
-{{ aria_label | default: 'Click Me' | json }}, "type": {{ type | default: 'button' | json }}, "class":
+{% props %} "href": {{ href | default: '#' | json }}, "event": {{ event | default: 'click' | json }}, "html":
+{{ html | json }}, "aria_label": {{ aria_label | default: 'Click Me' | json }}, "type":
+{{ type | default: 'button' | json }}, "class":
 {{ class | default: '' | json -}}
-{%- if details -%}
-  , "details": {{ details -}}
+{%- if detail -%}
+  , "detail": {{ detail -}}
 {%- endif %}
 {% endprops %}
 
-<a href="{{ href }}" class="{{ class }}" aria-label="{{ aria_label }}">
+<a
+  {% if href %}
+    href="{{ href }}"
+  {% endif %}
+  class="block {{ class }}"
+  {% if aria_label %}
+    aria-label="{{ aria_label }}"
+  {% endif %}
+>
   {{ html }}
 </a>
